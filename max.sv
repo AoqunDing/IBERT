@@ -1,0 +1,17 @@
+`timescale 1ps / 1ps
+
+module max
+#(
+    parameter D_W = 32
+)
+(
+    input  logic                  clk,
+    input  logic                  rst,
+    input  logic                  enable,
+    input  logic                  initialize,
+    input  logic signed [D_W-1:0] in_data,
+    output logic signed [D_W-1:0] result
+);
+
+
+endmodule

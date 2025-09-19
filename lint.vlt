@@ -1,0 +1,4 @@
+`verilator_config
+lint_off -file "unisims/*.v" -match "*"
+lint_off -file "softmax.sv"
+lint_off -file "layer_norm.sv"

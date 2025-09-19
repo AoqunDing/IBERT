@@ -1,0 +1,11 @@
+`verilator_config
+lint_off -file "*.sv" -match "*LUT*"
+lint_off -file "*.sv" -match "*FDRE*"
+lint_off -file "*.sv" -match "*CARRY*"
+lint_off -file "*.sv" -match "*SRL16E*"
+lint_off -file "*.sv" -match "*DSP*"
+lint_off -file "*.sv" -match "*RAM*"
+lint_off -file "*.sv" -match "*FDSE*"
+lint_off -file "*.sv" -match "*MUX*"
+lint_off -file "*.sv" -match "*SRLC32E*"
+lint_off -file "*.sv" -match "*FDCE*"
